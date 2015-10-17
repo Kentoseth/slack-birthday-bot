@@ -20,7 +20,7 @@ More info can be found here: [link](https://github.com/slackhq/python-slackclien
 
 ##Using the program itself
 
-In order to make this program work, you need to make 1 file-edit and do a couple of crude things (with some tasks able to be automated)
+In order to make this program work, you need to make 1 file-edit and do a couple of other manual things (with some these tasks capable of being automated).
 
 ###Adding your Slack token
 
@@ -55,6 +55,7 @@ You can run it on your local machine or on a server.
 You can also add the 'GET' request as another CRON job, making sure to save the output as `file.json` in the same directory as the `run.py` file.
 
 > (Possible)Q: Do I need to run the the file multiple times a day to update each person on their birthday(in case there is more than 1 person sharing a birthday)?
+
 > A: No, running the script once will send each person in your Slack team a birthday message (on the same day)
 
 ----------
